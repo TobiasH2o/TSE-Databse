@@ -5,6 +5,7 @@ The script creates all required tables and populates with two example users.
 
 # Example data
 The script creates 2 users
+
 Username: fin
 Password: pword
 
