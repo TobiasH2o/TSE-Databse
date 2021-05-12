@@ -1,7 +1,8 @@
 SET GLOBAL time_zone = '+01:00';
-DROP DATABASE A;
 CREATE DATABASE A;
 USE A;
+CREATE USER 'JavaInterface'@'localhost' IDENTIFIED BY 'UHjSDJeJ3kFMDFxn';
+GRANT ALL PRIVILEGES ON * TO 'JavaInterface'@'localhost';
 CREATE TABLE `userInfo` (
   `userID` int PRIMARY KEY AUTO_INCREMENT,
   `userName` varchar(35) UNIQUE,
