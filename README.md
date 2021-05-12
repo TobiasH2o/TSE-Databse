@@ -1,5 +1,5 @@
 # TSE-Databse
-The database used byt the TSE-Java-Server containing all data for the messaging service. Designed for a MySQL version 8.
+The database used by the TSE-Java-Server containing all data for the messaging service. Designed for a MySQL version 8.
 
 The script creates all required tables and populates with two example users.
 
